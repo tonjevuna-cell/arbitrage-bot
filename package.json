@@ -1,0 +1,19 @@
+{
+  "name": "arbitrage-bot",
+  "version": "1.0.0",
+  "description": "Self-funding flashloan arbitrage bot, 24/7 Railway ready",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "npx hardhat run scripts/deploy.js --network mainnet"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.18.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
